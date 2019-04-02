@@ -1,0 +1,34 @@
+{
+  "name": "jq-quick-app-lib",
+  "version": "1.0.0",
+  "description": "Quick jquery app library.",
+  "main": "js/main.js",
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "http-server -p 9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndriiLemeshev/jq-quick-app-lib.git"
+  },
+  "keywords": [
+    "jquery",
+    "app",
+    "library"
+  ],
+  "author": "Andrii Lemeshev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndriiLemeshev/jq-quick-app-lib/issues"
+  },
+  "homepage": "https://github.com/AndriiLemeshev/jq-quick-app-lib#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "http-server": "^0.11.1"
+  }
+}
